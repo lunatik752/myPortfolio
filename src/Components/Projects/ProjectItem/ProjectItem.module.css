@@ -1,0 +1,44 @@
+.projectWrapper {
+    height: 500px;
+    width: 500px;
+    background-color: #c1c1c1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project {
+    height: 60%;
+    align-self: stretch;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonWatch button {
+    height: 40px;
+    width: 120px;
+}
+
+.description {
+    align-self: stretch;
+    height: 40%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+}
+
+.title {
+
+}
+
+.shortDescription {
+    width: 80%;
+    background-color: gray;
+
+
+
+}

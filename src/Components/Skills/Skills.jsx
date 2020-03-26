@@ -1,6 +1,7 @@
 import React from 'react';
 import s from './Skills.module.css';
-import Skill from "./skill/Skill";
+import Skill from "./Skill/Skill";
+
 
 function Skills() {
     return (
