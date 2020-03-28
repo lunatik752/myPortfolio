@@ -3,10 +3,12 @@
     background-color: #85d178;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 .container {
     width: 80%;
+    height: 80%;
     border: 2px solid;
     display: flex;
     align-items: center;

@@ -1,6 +1,40 @@
 .contacts {
     height: 100vh;
     background-color: #d17649;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+
+.container {
+    width: 80%;
+    height: 80%;
+    border: 2px solid;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.contactsTitle {
+    background-color: gray;
+    font-size: 30px;
+}
+
+.myContacts {
+    width: 50%;
+    height: 60%;
+    border: black 1px solid;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+
+.contactsButton button{
+    height: 40px;
+    font-size: 20px;
+    background-color: gray;
+}
+
 
