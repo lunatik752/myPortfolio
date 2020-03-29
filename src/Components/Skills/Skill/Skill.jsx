@@ -1,17 +1,17 @@
 import React from 'react';
-import s from './Skill.module.css';
+import styles from './Skill.module.css';
 
 function Skill(props) {
     return (
-        <div className={s.skillWrapper}>
-            <div className={s.skill}>
-                <div className={s.logo}>
+        <div className={styles.skillWrapper}>
+            <div className={styles.skill}>
+                <div className={styles.logo}>
                 </div>
-                <div className={s.title}>
+                <div className={styles.title}>
                     <span>{props.skill}</span>
                 </div>
             </div>
-            <div className={s.description}>
+            <div className={styles.description}>
                 <p> Подробное описание навыка</p>
             </div>
         </div>

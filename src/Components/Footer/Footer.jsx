@@ -1,29 +1,29 @@
 import React from 'react';
-import s from './Footer.module.css';
+import styles from './Footer.module.css';
 
 function Footer() {
   return (
-    <div className={s.footer}>
-      <div className={s.container}>
-        <div className={s.footerTitle}>
+    <div className={styles.footer}>
+      <div className={styles.container}>
+        <div className={styles.footerTitle}>
           <span>Максим Белый</span>
         </div>
-        <div className={s.myLinks}>
-          <div className={s.link}>
+        <div className={styles.myLinks}>
+          <div className={styles.link}>
             <span>f</span>
           </div>
-          <div className={s.link}>
+          <div className={styles.link}>
             <span>vc</span>
           </div>
-          <div className={s.link}>
+          <div className={styles.link}>
             <span>in</span>
           </div>
-          <div className={s.link}>
+          <div className={styles.link}>
             <span>GitHub</span>
           </div>
 
         </div>
-        <div className={s.copyright}>
+        <div className={styles.copyright}>
           <span>© 2020 Все права защищены </span>
         </div>
       </div>

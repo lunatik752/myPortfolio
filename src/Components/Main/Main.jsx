@@ -1,16 +1,16 @@
 import React from 'react';
-import s from './Main.module.css';
+import styles from './Main.module.css';
 
 function Main() {
     return (
-        <div className={s.main}>
-            <div className={s.container}>
-                <div className={s.greeting}>
+        <div className={styles.main}>
+            <div className={styles.container}>
+                <div className={styles.greeting}>
                     <span>Привет!</span>
                     <span>Меня зовут Максим Белый</span>
                     <span>Я front-end разработчик</span>
                 </div>
-                <div className={s.photo}>
+                <div className={styles.photo}>
                 <img src="" alt=""/>
                 </div>
             </div>

@@ -1,19 +1,19 @@
 import React from 'react';
-import s from './ProjectItem.module.css';
+import styles from './ProjectItem.module.css';
 
 function ProjectItem(props) {
     return (
-        <div className={s.projectWrapper}>
-            <div className={s.project}>
-                <div className={s.buttonWatch}>
+        <div className={styles.projectWrapper}>
+            <div className={styles.project}>
+                <div className={styles.buttonWatch}>
                     <button>Смотреть</button>
                 </div>
             </div>
-            <div className={s.description}>
-                <div className={s.title}>
+            <div className={styles.description}>
+                <div className={styles.title}>
                     <p>Название проекта</p>
                 </div>
-                <div className={s.shortDescription}>
+                <div className={styles.shortDescription}>
                     <p>Краткое описание проета</p>
                 </div>
             </div>

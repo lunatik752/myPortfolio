@@ -1,19 +1,19 @@
 import React from 'react';
-import s from './Contacts.module.css';
+import styles from './Contacts.module.css';
 
 function Contacts() {
     return (
-        <div className={s.contacts}>
-            <div className={s.container}>
-                <div className={s.contactsTitle}>
-                    <span>Рассматриваю варианты удаленной работы</span>
+        <div className={styles.contacts}>
+            <div className={styles.container}>
+                <div className={styles.contactsTitle}>
+                    <span>Контакты</span>
                 </div>
-                <div className={s.myContacts}>
-                    <span>address: Minsk</span>
-                    <span>mail: myMail.gmail.com</span>
-                    <span>other info</span>
-                </div>
-                <div className={s.contactsButton}>
+                    <form className={styles.contactsForm}>
+                        <input type="text"/>
+                        <input type="text"/>
+                        <textarea> </textarea>
+                    </form>
+                <div className={styles.contactsButton}>
                     <button>Отправить</button>
                 </div>
             </div>

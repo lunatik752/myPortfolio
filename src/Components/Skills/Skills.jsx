@@ -1,16 +1,16 @@
 import React from 'react';
-import s from './Skills.module.css';
+import styles from './Skills.module.css';
 import Skill from "./Skill/Skill";
 
 
 function Skills() {
     return (
-        <div className={s.skills}>
-            <div className={s.container}>
-                <div className={s.heading}>
+        <div className={styles.skills}>
+            <div className={styles.container}>
+                <div className={styles.heading}>
                     <span>Мои скиллы</span>
                 </div>
-                <div className={s.mySkills}>
+                <div className={styles.mySkills}>
                     <Skill skill='React'/>
                     <Skill skill='Redux'/>
                     <Skill skill='HTML'/>

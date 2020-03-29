@@ -1,13 +1,13 @@
 import React from 'react';
-import s from './NavBar.module.css';
+import styles from './NavBar.module.css';
 
 function NavBar() {
     return (
-        <div className={s.navBar}>
-            <a href='' className={s.link}>Главная</a>
-            <a href='' className={s.link}>Скиллы</a>
-            <a href='' className={s.link}>Проекты</a>
-            <a href='' className={s.link}>Контакты</a>
+        <div className={styles.navBar}>
+            <a href='' className={styles.link}>Главная</a>
+            <a href='' className={styles.link}>Скиллы</a>
+            <a href='' className={styles.link}>Проекты</a>
+            <a href='' className={styles.link}>Контакты</a>
         </div>
     );
 }
