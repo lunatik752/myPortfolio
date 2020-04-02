@@ -23,7 +23,8 @@
 }
 
 .myLinks {
-    width: 250px;
+    width: 30%;
+    min-width: 250px;
     height: 60px;
     border: black 1px solid;
     display: flex;

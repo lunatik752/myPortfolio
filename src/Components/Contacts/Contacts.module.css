@@ -1,4 +1,5 @@
 .contacts {
+    min-height: 100vh;
     background-color: #d17649;
     display: flex;
     justify-content: center;
