@@ -1,47 +1,63 @@
 .footer {
-    height: 300px;
-    background-color: #a9d19a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
 
+  background-color: #a9d19a;
 }
 
 .container {
-    width: 90%;
-    margin: 30px auto;
-    border: 2px solid;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 30px auto;
+
+  border: 2px solid;
 }
 
-.footerTitle{
-    font-size: 20px;
-    padding: 20px;
+.footerTitle {
+  padding: 20px;
+
+  font-size: 20px;
 }
 
 .myLinks {
-    width: 30%;
-    min-width: 250px;
-    height: 60px;
-    border: black 1px solid;
-    display: flex;
-    justify-content: space-between;
-    margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  width: 500px;
+  margin: 20px;
+
+  border: black 1px solid;
 }
 
-.link{
-    background-color: gray;
-    width: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.link {
 
+  width: 60px;
+  height: 60px;
+
+  background-color: gray;
 }
 
 .copyright {
-    background-color: gray;
-    margin: 20px;
+  margin: 20px;
+
+  background-color: gray;
+}
+
+@media screen and (max-width: 556px){
+    .myLinks {
+        width: 100%;
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .link {
+        width: 50px;
+        height: 50px;
+    }
+
 }

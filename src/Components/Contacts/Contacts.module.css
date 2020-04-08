@@ -1,50 +1,61 @@
 .contacts {
-    min-height: 100vh;
-    background-color: #d17649;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+
+  background-color: #d17649;
 }
 
 .container {
-    width: 90%;
-    margin: 30px auto;
-    border: 2px solid;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 30px auto;
+
+  border: 2px solid;
 }
 
 .contactsTitle {
-    background-color: gray;
-    font-size: 30px;
-    margin: 10px;
+  margin: 10px;
+
+  font-size: 30px;
+
+  background-color: gray;
 }
 
 .contactsForm {
-    width: 40%;
-    min-width: 300px;
-    height: 300px;
-    border: black 1px solid;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 500px;
+  height: 300px;
+
+  border: black 1px solid;
 }
 
-.contactsForm input{
-    height: 30px;
+.contactsForm input {
+  height: 30px;
 }
 
-.contactsForm textarea{
-    height: 180px;
+.contactsForm textarea {
+  height: 180px;
 }
 
-.contactsButton button{
-    height: 40px;
-    font-size: 20px;
-    background-color: gray;
-    margin: 10px;
+.contactsButton button {
+  height: 40px;
+  margin: 10px;
+
+  font-size: 20px;
+
+  background-color: gray;
 }
 
+@media screen and (max-width: 556px){
+    .contactsForm {
+        width: 100%;
+    }
 
+}
