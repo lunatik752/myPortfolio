@@ -13,8 +13,6 @@
   align-items: center;
   width: 90%;
   margin: 30px auto;
-
-  border: 2px solid;
 }
 
 .heading {
@@ -23,7 +21,6 @@
 
   text-align: center;
 
-  border: 1px solid;
 }
 
 .mySkills {

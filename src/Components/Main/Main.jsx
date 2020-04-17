@@ -6,12 +6,16 @@ function Main() {
         <div className={styles.main}>
             <div className={styles.container}>
                 <div className={styles.greeting}>
-                    <span>Привет!</span>
-                    <span>Меня зовут <label>Максим </label><span>Белый</span></span>
+                    <p>Привет!</p>
+                    <div className={styles.name}>
+                        <span>Меня зовут </span><span>Максим Белый</span>
+                    </div>
                     <h1>Я front-end разработчик</h1>
                 </div>
                 <div className={styles.photo}>
-                <img src='https://lh3.googleusercontent.com/OLJoYlE8bbSKXkjJkVv_sJdm_RkmuKaBNDijcs-bQGfilp1GP8Kc39Lnl4uABcdERYuwvjMPovR3xDRkV8Q4c5ChqGX_-JczIAkTagdcyfZOiXzPaQ2Yyg0hDmGb2sOuSrQNyAl2kKzD40SW9y0gvH3Kx4jOw5qZAEXPJzRPUmme_E_okKPidKXwA6_Sbx19CRQWkFJdIb6bTa8yvsF14HVHJsPa89V63ACRJHxUUt5_dsPGlHc7FgiyhO_JpwlDm5j0xDWgMj-e1sZcXFrnl9_9WJogDcr0WsKzYmQOSv1fmcSSc7f0aQVX8T7OGEQn_LvhzbSE_GkAdoaNpqQrT_fzT1VvugK-pJ7h1Wbe-b2jRk3szDBgUG4IcBFKjPLQEz2b2jKxTl7hpMGrCZSposlGcp8bdaQ3j6fPCwfNhR8yHQOolTpVk550nhki_F5kYgevPkW_UyFPzhrjmziAg7sRVPzlA1tu52I2gUZvSw9un_jVVDhovIO6EdRcuRGYg6qWCkqmyXmcf35iOF9GI6M18royy9j8ZO9Mds2p-JEEQ4GV13j07OplT3YGOKrcc2Liq2Zn4jovrvBdQhgmvVVnQaDQa3pT4cOPEvFpS4nkb5hC9FUaXN_b3QJjbk8FEl5CnWLmhMYalKMwX0Pjp3jA9vvVKzEaRDt8Q01t0RAaBiQJkUpNWk-yIB13=w728-h961-no' alt='myPhoto'/>
+                    <img
+                        src='https://lh3.googleusercontent.com/KdFFxEowRnpZP5XPLANMwaSkRwjsitwaSJGDf5MENIBpcJ72ceCMCl_wl1Gm8Fl42LgK-MWf9b-KmKG2MUNIxEnyG8CLYTd0AzJh_jIuZukrRJHlLeyEyemKKQQx0mWQQdd682EaZhmcXchCGS0J3sKuSLlwIsXZnM4JhObutCkBlz3ns-TjGgFr6dYfBRcX4O8D4Zr5EqthKo5nNgasSo-pUKRBvZNxZkCoa-DRnw3gUicpDRgWqMpTBu1eSAwYg_JJs-smqOQdnONb3H-CbUHMFgoa8YhyL1xVW7xbZEBcyWgp-ym8qmNHRWvKQAfbY-m4uCtOMTvHM4hwFpcM0fdWxQ0JTD2Em-KzmZRNrfb5s068ZX4Fxb51U31dpYgvdEnd-_bd3WVQIYf4ihvzOpdh9L3Q6Oj-KnNEQtzheGwUcl9a3Vgz1hoW4ePtRAd6Uw0mt-D5hPZQeR8LVdKwccF0_5TfCq0WS7JHQW8cy9Lra_0TErsjQf7hlOeROh-5bNyxcaEs_eu99x9d1isO84xhppW1g2VLgWkqUp1eH7V70sb-iQ1e76iezHsCcROWq6KOTW3bK4-IgHDup_Pyw37ilHU126C7ciXWR7yZ6LmL85gnJdYF5SlhrzdQWSUIL9KKRUEF4nHEvb2vD5s51iXg7dYuPfiKCAS8xczk0yJRrZbdtOLsFA3hjasH=w689-h909-no'
+                        alt='myPhoto'/>
                 </div>
             </div>
         </div>
