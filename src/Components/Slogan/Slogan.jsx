@@ -1,13 +1,12 @@
 import React from 'react';
 import styles from './Slogan.module.css';
+import SectionTitle from "../SectionTitle/SectionTitle";
 
 function Slogan() {
     return (
         <div className={styles.slogan}>
             <div className={styles.container}>
-                <div className={styles.sloganText}>
-                    <span>LET'S WORK TOGETHER!</span>
-                </div>
+                    <SectionTitle sectionTitle={'LET\'S WORK TOGETHER!'}/>
                 <div className={styles.sloganButton}>
                     <button>Нанять меня</button>
                 </div>

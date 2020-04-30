@@ -1,47 +1,50 @@
 .contacts {
   display: flex;
   justify-content: center;
-  align-items: center;
-  min-height: 100vh;
+  min-height: 60vh;
 
-  background-color: #d17649;
+  background-color: #1f1f20;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
   align-items: center;
   width: 90%;
   margin: 30px auto;
-
-  border: 2px solid;
 }
 
-.contactsTitle {
-  margin: 10px;
-
-  font-size: 30px;
-
-  background-color: gray;
-}
 
 .contactsForm {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   width: 500px;
-  height: 300px;
-
-  border: black 1px solid;
+  height: 270px;
 }
 
 .contactsForm input {
   height: 30px;
+  padding: 0 10px;
+
+  font-family: "Inter", sans-serif;
+  color: white;
+
+  background-color: #252527;
+  border: 1px solid #4a4a4a;
+  outline: none;
 }
 
 .contactsForm textarea {
-  height: 180px;
+  height: 150px;
+  padding: 10px;
+
+  font-family: "Inter", sans-serif;
+  color: white;
+
+  background-color: #252527;
+  border: 1px solid #4a4a4a;
+  outline: none;
 }
 
 .contactsButton button {
@@ -51,11 +54,11 @@
   font-size: 20px;
 
   background-color: gray;
+  outline: none;
 }
 
-@media screen and (max-width: 556px){
-    .contactsForm {
-        width: 100%;
-    }
-
+@media screen and (max-width: 556px) {
+  .contactsForm {
+    width: 100%;
+  }
 }

@@ -1,38 +1,41 @@
 .slogan {
-    height: 250px;
-    background-color: #d1d091;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 320px;
 
+  background-color: rgba(37, 37, 39, 0.3);
 }
 
 .container {
-    width: 90%;
-    margin: 30px auto;
-    border: 2px solid;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    justify-content: space-between;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 30px auto;
+
 }
 
-.sloganButton{
-padding: 20px;
+.sloganButton {
+  padding: 20px;
 }
 
-.sloganButton button{
-    width: 160px;
-    height: 40px;
-    font-size: 20px;
-    background-color: gray;
+.sloganButton button {
+  width: 160px;
+  height: 40px;
 
+  font-size: 20px;
+
+  background-color: gray;
 }
 
 
 .sloganText {
-    background-color: gray;
-    font-size: 20px;
-    margin: 20px;
+  margin: 20px;
 
+  font-size: 20px;
+
+  background-color: gray;
 }

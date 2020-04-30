@@ -1,10 +1,10 @@
 .projects {
   display: flex;
   justify-content: center;
-  align-items: center;
+  padding: 50px;
   min-height: 100vh;
 
-  background-color: #9242d1;
+  background-color: #1f1f20
 }
 
 .container {
@@ -14,17 +14,8 @@
   width: 90%;
   margin: 30px auto;
 
-  border: 2px solid;
 }
 
-.heading {
-  width: 100%;
-  height: 100px;
-
-  text-align: center;
-
-  border: 1px solid;
-}
 
 .myProjects {
   display: flex;
@@ -32,7 +23,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1110px){
+@media screen and (max-width: 1500px){
   .myProjects {
     flex-direction: column;
     align-items: center;

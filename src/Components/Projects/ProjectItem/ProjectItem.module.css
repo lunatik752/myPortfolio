@@ -2,21 +2,21 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 500px;
-  height: 500px;
-  margin: 10px 0 0 0;
 
-  background-color: #c1c1c1;
+  margin-top: 10px;
+
 }
 
 .project {
+  width: 400px;
+  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   align-self: stretch;
-  height: 60%;
+  background-color: #c1c1c1;
 
-  border: 1px solid black;
+
 }
 
 .buttonWatch button {
@@ -32,17 +32,17 @@
   align-self: stretch;
   height: 40%;
 
-  border: 1px solid black;
 }
 
 .shortDescription {
-  width: 80%;
 
-  background-color: gray;
 }
 
 @media screen and (max-width: 555px) {
-  .projectWrapper {
-    width: 100%;
+
+  .project {
+    width: 280px;
+    height: 190px;
+
   }
 }
