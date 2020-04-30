@@ -25,12 +25,7 @@
 .mySkills {
   display: flex;
   justify-content: space-around;
+  flex-wrap: wrap;
   width: 100%;
 }
 
-@media screen and (max-width: 1000px){
-  .mySkills {
-    flex-direction: column;
-    align-items: center;
-  }
-}

@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 20vh;
+  height: 100%;
 
   background-color: #252527;
 }
@@ -14,7 +14,6 @@
   align-items: center;
   width: 90%;
   margin: 30px auto;
-
 }
 
 .footerTitle {
