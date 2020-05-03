@@ -7,12 +7,10 @@ import Slogan from "./Components/Slogan/Slogan";
 import Projects from "./Components/Projects/Projects";
 import Contacts from "./Components/Contacts/Contacts";
 import Footer from "./Components/Footer/Footer";
-import Background from "./Components/Background/Background";
 
 function App() {
   return (
     <div className="App">
-        <Background/>
       <div className="portfolioWrapper">
          <Header/>
          <Main/>
@@ -22,6 +20,7 @@ function App() {
          <Contacts/>
          <Footer/>
       </div>
+
     </div>
   );
 }

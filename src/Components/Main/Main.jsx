@@ -9,7 +9,7 @@ function Main() {
                 <div className={styles.greeting}>
                     <p>Привет!</p>
                     <div className={styles.name}>
-                        <span>Меня зовут </span><span>Максим Белый</span>
+                        <p>Меня зовут</p><span>Максим</span><span>Белый</span>
                     </div>
                     <h1>Я front-end разработчик</h1>
                 </div>
