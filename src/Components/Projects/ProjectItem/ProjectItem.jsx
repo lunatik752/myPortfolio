@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './ProjectItem.module.css';
 
-function ProjectItem(props) {
+function ProjectItem() {
     return (
         <div className={styles.projectWrapper}>
             <div className={styles.project}>

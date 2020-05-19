@@ -1,6 +1,5 @@
 import React from 'react';
 import styles from './Skill.module.css';
-import redux from "../../../assets/icons/redux.svg";
 
 function Skill(props) {
     return (

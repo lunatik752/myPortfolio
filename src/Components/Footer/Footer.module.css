@@ -2,9 +2,10 @@
   display: flex;
   justify-content: center;
   align-items: center;
-height: 150px;
+  height: 150px;
+  padding: 30px;
+
   background-color: #252527;
-    padding: 30px;
 }
 
 .container {
@@ -13,7 +14,6 @@ height: 150px;
   justify-content: space-between;
   align-items: center;
   width: 90%;
-
 }
 
 .footerTitle {
@@ -27,30 +27,12 @@ height: 150px;
   margin: 20px;
 }
 
-.link {
-
-  width: 60px;
-  height: 60px;
-
-  background-color: gray;
-}
-
-.copyright {
 
 
-}
 
-@media screen and (max-width: 556px){
-    .myLinks {
-        width: 100%;
-    }
 
-}
-
-@media screen and (max-width: 360px){
-    .link {
-        width: 50px;
-        height: 50px;
-    }
-
+@media screen and (max-width: 556px) {
+  .myLinks {
+    width: 100%;
+  }
 }

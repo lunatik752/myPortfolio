@@ -14,21 +14,17 @@ import html from '../../assets/icons/html.svg'
 const Skills = () => {
 
 
-
-
     return (
         <div className={styles.skills}>
             <div className={styles.container}>
                 <SectionTitle sectionTitle={'Skills'}/>
                 <div className={styles.mySkills}>
-                    <Skill skill='React' icon={react} />
+                    <Skill skill='React' icon={react}/>
                     <Skill skill='Redux' icon={redux}/>
                     <Skill skill='js' icon={javascript}/>
                     <Skill skill='HTML' icon={html}/>
                     <Skill skill='CSS' icon={css}/>
                     <Skill skill='git' icon={git}/>
-
-
                 </div>
             </div>
         </div>

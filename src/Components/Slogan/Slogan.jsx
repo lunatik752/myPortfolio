@@ -7,7 +7,7 @@ function Slogan() {
         <div className={styles.sloganBackground}>
         <div className={styles.slogan}>
             <div className={styles.container}>
-                    <SectionTitle sectionTitle={'LET\'S WORK TOGETHER!'}/>
+                    <SectionTitle sectionTitle={'Let\'s work together!'}/>
                 <div className={styles.sloganButton}>
                     <button>Нанять меня</button>
                 </div>

@@ -1,0 +1,28 @@
+.linkWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  height: 60px;
+
+  background: rgba(255,255,255,0.1);
+  border-radius: 50%;
+}
+
+.linkWrapper a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkWrapper a img {
+  width: 50%;
+}
+
+
+@media screen and (max-width: 360px) {
+  .linkWrapper {
+    width: 50px;
+    height: 50px;
+  }
+}
