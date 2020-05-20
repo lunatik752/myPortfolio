@@ -10,7 +10,7 @@ function ProjectItem() {
                 </div>
             </div>
             <div className={styles.description}>
-                <div className={styles.title}>
+                <div className={styles.projectTitle}>
                     <p>Название проекта</p>
                 </div>
                 <div className={styles.shortDescription}>

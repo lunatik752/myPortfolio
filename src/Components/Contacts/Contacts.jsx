@@ -6,7 +6,7 @@ function Contacts() {
     return (
         <div className={styles.contacts}>
             <div className={styles.container}>
-                    <SectionTitle sectionTitle={'Контакты'}/>
+                    <SectionTitle sectionTitle={'Contact'}/>
                     <form className={styles.contactsForm}>
                         <input  placeholder="Name"  type="text"/>
                         <input placeholder="E-mail" type="text"/>

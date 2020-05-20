@@ -1,23 +1,26 @@
 .titleWrapper {
+  position: relative;
+
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin:  30px 0 80px;
+
+  text-align: center;
 }
 
-.title{
-  font-family: 'Montserrat', sans-serif;
+.title {
   font-weight: 500;
-  /*text-transform: capitalize;*/
-  letter-spacing: 3px;
   font-size: 36px;
+  line-height: 1.2;
+  font-family: "Josefin Sans", sans-serif;
+  letter-spacing: 5px;
 }
 
 .line {
-  height: 1px;
   width: 55px;
-  background-color: #ff4500;
+  height: 1px;
   margin-bottom: 60px;
 
+  background-color: #ff4500;
 }

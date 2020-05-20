@@ -1,48 +1,50 @@
 .projectWrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  margin: 30px 20px;
+  width: 500px;
 
-  margin-top: 10px;
-
+  background: rgba(255,255,255,0.1);
 }
 
 .project {
-  width: 400px;
-  height: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
-  align-self: stretch;
-  background-color: #c1c1c1;
 
+  width: 500px;
+  height: 300px;
 
+  background-image: url(../../../../src/assets/image/todolist.jpg);
+  background-size: cover;
 }
 
 .buttonWatch button {
-  width: 120px;
-  height: 40px;
+  /*width: 120px;*/
+  /*height: 40px;*/
+}
+
+.projectTitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.2;
+  font-family: "Josefin Sans", sans-serif;
+letter-spacing: 1px;
 }
 
 .description {
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  align-self: stretch;
-  height: 40%;
+  margin:  auto 10px ;
+  /*display: flex;*/
+  /*flex-direction: column;*/
+  /*justify-content: start;*/
+  /*!*align-items: center;*!*/
+  /*align-self: stretch;*/
 
 }
 
-.shortDescription {
 
-}
 
 @media screen and (max-width: 555px) {
-
   .project {
     width: 280px;
     height: 190px;
-
   }
 }

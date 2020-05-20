@@ -9,14 +9,10 @@
   border-radius: 50%;
 }
 
-.linkWrapper a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.linkWrapper a img {
-  width: 50%;
+.linkWrapper a  {
+ font-size: 30px;
+    color: #ff4500;
 }
 
 

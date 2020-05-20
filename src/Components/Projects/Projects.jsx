@@ -7,9 +7,9 @@ function Projects() {
     return (
         <div className={styles.projects}>
             <div className={styles.container}>
-                <SectionTitle sectionTitle={'Мои проекты'}/>
+                <SectionTitle sectionTitle={'Projects'}/>
                 <div className={styles.myProjects}>
-                    <ProjectItem/>
+                    <ProjectItem title='TodoList'/>
                     <ProjectItem/>
                     <ProjectItem/>
                 </div>

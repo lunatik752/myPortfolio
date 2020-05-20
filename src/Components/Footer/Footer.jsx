@@ -1,13 +1,25 @@
 import React from 'react';
 import styles from './Footer.module.css';
 import Link from "./Link/Link";
-import vk from '../../assets/icons/vk.svg'
-import telegram from '../../assets/icons/telegram.svg'
-import github from '../../assets/icons/github.svg'
-import linkedin from '../../assets/icons/linkedin.svg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faVk } from '@fortawesome/free-brands-svg-icons'
+import { faGithub } from '@fortawesome/free-brands-svg-icons'
+import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
+import { faTelegramPlane } from '@fortawesome/free-brands-svg-icons'
+
+
+
+
+
 
 
 function Footer() {
+
+    const vk = <FontAwesomeIcon icon={faVk}/>;
+    const github = <FontAwesomeIcon icon={faGithub}/>;
+    const linkedin = <FontAwesomeIcon icon={faLinkedinIn}/>;
+    const telegram = <FontAwesomeIcon icon={faTelegramPlane}/>;
+
     return (
         <div className={styles.footer}>
             <div className={styles.container}>
