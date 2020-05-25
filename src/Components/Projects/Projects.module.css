@@ -1,32 +1,36 @@
 .projects {
   display: flex;
   justify-content: center;
-  padding: 50px;
-  min-height: 100vh;
 
-  background-color: #1f1f20
+  background-color: #1f1f20;
 }
 
 .container {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 90%;
-  margin: 30px auto;
-
+  width: 80%;
+  margin: 80px 30px;
 }
 
 
 .myProjects {
   display: flex;
-  justify-content: space-around;
   flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: flex-start;
   width: 100%;
 }
 
-@media screen and (max-width: 1500px){
+@media screen and (max-width: 1500px) {
   .myProjects {
     flex-direction: column;
     align-items: center;
+  }
+}
+
+@media screen and (max-width: 555px) {
+  .container {
+    width: 100%;
   }
 }

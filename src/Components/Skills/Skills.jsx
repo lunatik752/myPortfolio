@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Skills.module.css';
 import Skill from "./Skill/Skill";
-import SectionTitle from "../SectionTitle/SectionTitle";
+import SectionTitle from "../../common/components/SectionTitle/SectionTitle";
 
 import redux from '../../assets/icons/redux.svg'
 import git from '../../assets/icons/git.svg'

@@ -1,20 +1,20 @@
 import React from 'react';
 import styles from './ProjectItem.module.css';
 
-function ProjectItem() {
+const ProjectItem = (props) => {
     return (
         <div className={styles.projectWrapper}>
-            <div className={styles.project}>
+            <div className={styles.image} style={props.style}>
                 <div className={styles.buttonWatch}>
                     <button>Смотреть</button>
                 </div>
             </div>
             <div className={styles.description}>
                 <div className={styles.projectTitle}>
-                    <p>Название проекта</p>
+                    <p>{props.title}</p>
                 </div>
                 <div className={styles.shortDescription}>
-                    <p>Краткое описание проета</p>
+                    <p>{props.description}</p>
                 </div>
             </div>
         </div>

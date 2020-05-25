@@ -10,17 +10,23 @@
 }
 
 .title {
-  font-weight: 500;
+
+}
+
+.title h2 {
+  margin: 0 0 30px;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
   font-size: 36px;
   line-height: 1.2;
-  font-family: "Josefin Sans", sans-serif;
   letter-spacing: 5px;
+  text-transform: capitalize;
 }
 
 .line {
   width: 55px;
   height: 1px;
-  margin-bottom: 60px;
+
 
   background-color: #ff4500;
 }

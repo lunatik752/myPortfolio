@@ -5,9 +5,9 @@ import styles from './SectionTitle.module.css';
 const SectionTitle = (props) => {
     return (
         <div className={styles.titleWrapper}>
-            <h2 className={styles.title}>
-                {props.sectionTitle}
-            </h2>
+            <div className={styles.title}>
+                <h2>{props.sectionTitle}</h2>
+            </div>
             <div className={styles.line}>
             </div>
         </div>

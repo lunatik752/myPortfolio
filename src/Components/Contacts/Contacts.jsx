@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from './Contacts.module.css';
-import SectionTitle from "../SectionTitle/SectionTitle";
+import SectionTitle from "../../common/components/SectionTitle/SectionTitle";
 
 function Contacts() {
     return (
