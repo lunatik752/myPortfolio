@@ -1,0 +1,21 @@
+.buttonSubmit {
+  max-width: 170px;
+  margin: 15px auto;
+  padding: 7px 20px;
+
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.8;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  color: #ffffff;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-stretch: normal;
+  letter-spacing: 1px;
+
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  z-index: 10;
+}

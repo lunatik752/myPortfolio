@@ -24,7 +24,7 @@ function Footer() {
         <div className={styles.footer}>
             <div className={styles.container}>
                 <div className={styles.footerTitle}>
-                    <span>Максим Белый</span>
+                    <h2>Максим Белый</h2>
                 </div>
                 <div className={styles.myLinks}>
                     <Link icon={telegram}/>
@@ -33,7 +33,7 @@ function Footer() {
                     <Link icon={github}/>
                 </div>
                 <div className={styles.copyright}>
-                    <span>© 2020 Все права защищены </span>
+                    <p>© 2020 Все права защищены </p>
                 </div>
             </div>
 

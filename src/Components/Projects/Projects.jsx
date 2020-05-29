@@ -1,5 +1,5 @@
 import React from 'react';
-import styles from './Projects.module.css';
+import styles from './Projects.module.scss';
 import ProjectItem from './ProjectItem/ProjectItem';
 import SectionTitle from '../../common/components/SectionTitle/SectionTitle';
 import socialNetwork from '../../assets/image/social-network.jpg'
