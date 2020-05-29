@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "7fe44bf808d608a5241ce54a5699743b",
+    "revision": "19b9cdfff49a315581f0c73f9b572cb5",
     "url": "/myPortfolio/index.html"
   },
   {
-    "revision": "4026f4ac3bccc9664e1e",
-    "url": "/myPortfolio/static/css/main.6ce75a50.chunk.css"
+    "revision": "33d0e6e7e04cf894f207",
+    "url": "/myPortfolio/static/css/main.80d1a9a4.chunk.css"
   },
   {
-    "revision": "05296315a5b58b646bbc",
-    "url": "/myPortfolio/static/js/2.8924b634.chunk.js"
+    "revision": "969f49de971a6b6599e1",
+    "url": "/myPortfolio/static/js/2.02dad5e2.chunk.js"
   },
   {
     "revision": "e88a3e95b5364d46e95b35ae8c0dc27d",
-    "url": "/myPortfolio/static/js/2.8924b634.chunk.js.LICENSE.txt"
+    "url": "/myPortfolio/static/js/2.02dad5e2.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "4026f4ac3bccc9664e1e",
-    "url": "/myPortfolio/static/js/main.23ac6029.chunk.js"
+    "revision": "33d0e6e7e04cf894f207",
+    "url": "/myPortfolio/static/js/main.7e14a330.chunk.js"
   },
   {
-    "revision": "77a845644fcaa807fb1b",
-    "url": "/myPortfolio/static/js/runtime-main.870183c4.js"
+    "revision": "68915027288fd00f3cc4",
+    "url": "/myPortfolio/static/js/runtime-main.8afba0d3.js"
   },
   {
     "revision": "30ea90b43b489cf723be09475cc23fba",
@@ -30,6 +30,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "695c9fd34c25e199b721e19d5abe4248",
     "url": "/myPortfolio/static/media/bg1.695c9fd3.jpg"
+  },
+  {
+    "revision": "66fe100ace00c12835dc3c97705be5d3",
+    "url": "/myPortfolio/static/media/counter.66fe100a.jpg"
   },
   {
     "revision": "f93ae9690433a793d3e6628d241db2be",
@@ -54,6 +58,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "27c1fc731b6befc709a166596f59fb22",
     "url": "/myPortfolio/static/media/redux.27c1fc73.svg"
+  },
+  {
+    "revision": "91230dab7a9303c5fe6c9c0479a3ca80",
+    "url": "/myPortfolio/static/media/social-network.91230dab.jpg"
   },
   {
     "revision": "c35b3952328b6015fbf9b863c3294672",
