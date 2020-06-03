@@ -3,14 +3,17 @@
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
-  z-index: -1;
+
 }
 
 .slogan {
+
+
   display: flex;
   justify-content: center;
   align-items: center;
   background-color: rgba(37, 37, 39, 0.3);
+
 }
 
 
