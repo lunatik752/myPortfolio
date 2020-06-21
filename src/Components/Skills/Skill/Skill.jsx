@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Skill.module.css';
 import {Fade} from "react-reveal";
 
-function Skill(props) {
+const Skill = (props) => {
     return (
         <Fade cliar>
             <div className={styles.skillWrapper}>

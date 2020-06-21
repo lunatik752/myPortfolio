@@ -12,22 +12,18 @@ import {Fade} from "react-reveal";
 
 
 const Skills = () => {
-
-
     return (
         <div className={styles.skills}>
             <div className={styles.container}>
                 <Fade clear>
                     <SectionTitle sectionTitle={'Skills'}/>
                     <div className={styles.mySkills}>
-
                         <Skill skill='React' icon={react}/>
                         <Skill skill='Redux' icon={redux}/>
                         <Skill skill='js' icon={javascript}/>
                         <Skill skill='HTML' icon={html}/>
                         <Skill skill='CSS' icon={css}/>
                         <Skill skill='git' icon={git}/>
-
                     </div>
                 </Fade>
             </div>
@@ -37,3 +33,4 @@ const Skills = () => {
 }
 
 export default Skills;
+

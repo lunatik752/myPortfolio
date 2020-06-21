@@ -8,12 +8,7 @@ import { faLinkedinIn } from '@fortawesome/free-brands-svg-icons'
 import { faTelegramPlane } from '@fortawesome/free-brands-svg-icons'
 
 
-
-
-
-
-
-function Footer() {
+const Footer = () => {
 
     const vk = <FontAwesomeIcon icon={faVk}/>;
     const github = <FontAwesomeIcon icon={faGithub}/>;

@@ -2,7 +2,7 @@ import React from 'react';
 import styles from './Main.module.scss';
 import photo from '../../assets/image/IMG_20200404_140331.jpg'
 
-function Main() {
+const Main = () => {
     return (
         <div className={styles.main}>
             <div className={styles.container}>

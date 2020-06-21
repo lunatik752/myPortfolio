@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './NavBar.module.css';
 
-function NavBar() {
+const NavBar = () => {
     return (
         <div className={styles.navBar}>
             <a href='' className={styles.link}>Главная</a>
