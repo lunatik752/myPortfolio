@@ -4,6 +4,7 @@ import SectionTitle from "../../common/components/SectionTitle/SectionTitle";
 import Button from "../../common/components/Button/Button";
 import {Field, reduxForm} from "redux-form";
 import axios from "axios";
+import {Fade} from "react-reveal";
 
 const Contacts = () => {
     const onSubmit = (formData) => {
@@ -21,8 +22,10 @@ const Contacts = () => {
     return (
         <div className={styles.contacts}>
             <div className={styles.container}>
-                <SectionTitle sectionTitle={'Contact'}/>
-                <ContactsReduxForm onSubmit={onSubmit}/>
+                <Fade clear>
+                    <SectionTitle sectionTitle={'Contact'}/>
+                    <ContactsReduxForm onSubmit={onSubmit}/>
+                </Fade>
             </div>
         </div>
     );
@@ -30,13 +33,14 @@ const Contacts = () => {
 
 const ContactsForm = (props) => {
     return (
-        <form className={styles.contactsForm} onSubmit={props.handleSubmit}>
-            <Field placeholder="Name" name='name' component='input' autocomplete='off'/>
-            <Field placeholder="E-mail" name='email' component='input' autocomplete='off'/>
-            <Field placeholder="Your message" name='message' component='textarea'/>
-            <Button title='Отправить'/>
-        </form>
-
+        <Fade clear>
+            <form className={styles.contactsForm} onSubmit={props.handleSubmit}>
+                <Field placeholder="Name" name='name' component='input' autocomplete='off'/>
+                <Field placeholder="E-mail" name='email' component='input' autocomplete='off'/>
+                <Field placeholder="Your message" name='message' component='textarea'/>
+                <Button title='Отправить'/>
+            </form>
+        </Fade>
     );
 }
 
