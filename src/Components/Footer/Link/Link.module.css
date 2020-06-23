@@ -7,12 +7,17 @@
 
   background: rgba(255,255,255,0.1);
   border-radius: 50%;
+  border: 1px solid transparent
 }
 
+.linkWrapper:hover {
+  border: 1px solid #ff4500;
+  transition: all 0.3s ease-in-out ;
+}
 
-.linkWrapper a  {
- font-size: 30px;
-    color: #ff4500;
+.linkWrapper a {
+  font-size: 30px;
+  color: #ff4500;
 }
 
 

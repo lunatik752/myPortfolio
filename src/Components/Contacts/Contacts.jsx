@@ -7,7 +7,7 @@ import axios from "axios";
 
 const Contacts = () => {
     const onSubmit = (formData) => {
-        axios.post(" https://lunatik752-smtp-nodejs-server.herokuapp.com/sendMessage",
+        axios.post('https://lunatik752-smtp-nodejs-server.herokuapp.com/sendMessage',
             {
                 name: formData.name,
                 email: formData.email,
@@ -31,8 +31,8 @@ const Contacts = () => {
 const ContactsForm = (props) => {
     return (
         <form className={styles.contactsForm} onSubmit={props.handleSubmit}>
-            <Field placeholder="Name" name='name' component='input'/>
-            <Field placeholder="E-mail" name='email' component='input'/>
+            <Field placeholder="Name" name='name' component='input' autocomplete='off'/>
+            <Field placeholder="E-mail" name='email' component='input' autocomplete='off'/>
             <Field placeholder="Your message" name='message' component='textarea'/>
             <Button title='Отправить'/>
         </form>

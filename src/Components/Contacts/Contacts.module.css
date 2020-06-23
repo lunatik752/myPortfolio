@@ -22,7 +22,6 @@
   flex-direction: column;
   justify-content: space-between;
   width: 500px;
-  height: 336px;
   margin-top: 80px;
 }
 
@@ -36,10 +35,11 @@
   background-color: #252527;
   border: 1px solid #4a4a4a;
   outline: none;
+  margin-bottom: 16px;
 }
 
 .contactsForm textarea {
-  height: 150px;
+  min-height: 150px;
   padding: 10px;
 
   font-family: "Inter", sans-serif;
@@ -48,24 +48,17 @@
   background-color: #252527;
   border: 1px solid #4a4a4a;
   outline: none;
-}
-
-.buttonSubmit {
-  color: #ffffff;
-  text-transform: uppercase;
-  text-decoration: none;
-  letter-spacing: 1px;
-  padding: 7px 20px;
-  cursor: pointer;;
-  background: transparent;
-  max-width: 170px;
-  margin: 15px auto;
-  text-align: center;
-
-  border: none;
-  position: relative;
+  resize: vertical;
+  margin-bottom: 16px;
 
 }
+
+.contactsForm input:focus, .contactsForm textarea:focus {
+  border: 1px solid transparent;
+  transition: all 0.4s ease-in-out;
+}
+
+
 
 @media screen and (max-width: 556px) {
   .contactsForm {
