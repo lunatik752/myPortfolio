@@ -21,7 +21,7 @@ const Projects = () => {
 
 
     return (
-        <div className={styles.projects}>
+        <div className={styles.projects} id={'projects'}>
             <div className={styles.container}>
                 <Fade clear>
                     <SectionTitle sectionTitle={'Projects'}/>

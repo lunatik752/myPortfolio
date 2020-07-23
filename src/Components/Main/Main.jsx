@@ -4,7 +4,7 @@ import photo from '../../assets/image/IMG_20200404_140331.jpg'
 
 const Main = () => {
     return (
-        <div className={styles.main}>
+        <div className={styles.main} id={'main'}>
             <div className={styles.container}>
                 <div className={styles.greeting}>
                     <p>Привет!</p>

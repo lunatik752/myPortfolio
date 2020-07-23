@@ -13,7 +13,7 @@ import {Fade} from "react-reveal";
 
 const Skills = () => {
     return (
-        <div className={styles.skills}>
+        <div className={styles.skills} id={'skills'}>
             <div className={styles.container}>
                 <Fade clear>
                     <SectionTitle sectionTitle={'Skills'}/>

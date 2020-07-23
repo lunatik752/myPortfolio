@@ -20,7 +20,7 @@ const Contacts = () => {
     }
 
     return (
-        <div className={styles.contacts}>
+        <div className={styles.contacts} id={'contacts'}>
             <div className={styles.container}>
                 <Fade clear>
                     <SectionTitle sectionTitle={'Contact'}/>
